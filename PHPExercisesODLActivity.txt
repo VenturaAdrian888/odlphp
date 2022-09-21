@@ -1,0 +1,26 @@
+<?php   
+//exercise 5
+$num = "around"; 
+echo 'What goes ' . $num . ',' . 'comes ' . $num . '.';
+?> 
+
+<?php
+//exercise 6
+ for ($x = 1; $x <= 12; $x++){
+        $ANS = $x * $x;
+ echo "$x * $x = $ANS \n";}
+ ?>
+ 
+<?php
+//exercise 7
+echo "<table>";
+	for ($row=1; $row <= 7; $row++) { 
+		echo "<tr> \n";
+		for ($col=1; $col <= 7; $col++) { 
+		   $p = $col * $row;
+		   echo "<td>$p</td> \n";
+		   	}
+	  	    echo "</tr>";
+		}
+		echo "</table>";
+?>
